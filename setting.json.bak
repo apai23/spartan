@@ -2,7 +2,7 @@
   "name-web":"STACKOVERFLOW MASKODING",
   "author":"MASKODING",
   "remove-comment-html":true,
-  "target":"https://www.stamfordadvocate.com",
+  "target":"https://m.tribunnews.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -27,13 +27,13 @@
       ],
       "replace-string":[
         {
-          "target":"https://www.stamfordadvocate.com",
+          "target":"https://stackoverflow.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.stamfordadvocate.com",
+      "target":"m.tribunnews.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
